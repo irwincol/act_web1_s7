@@ -29,6 +29,13 @@ const productoMasVendido = ventas.reduce((max, venta) => {
 
 console.log(` ${productoMasVendido.producto}, Cantidad: ${productoMasVendido.cantidad}`);
 
+// Promedio de venta por Transaccion
+
+console.log("*****Promedio de Venta por Transaccion ****");
+
+const promedioPorTransaccion = totalIngresos/ventas.length
+console.log(promedioPorTransaccion);
+
 
 
 
