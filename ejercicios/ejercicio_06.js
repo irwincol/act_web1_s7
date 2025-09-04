@@ -7,34 +7,34 @@
 //  - extraer porción sin modificar original
 
 // Array inicial
-let arr = [1, 2, 3, 4, 5];
-console.log("Array inicial:", arr);
+let arrayNumeros = [1, 2, 3, 4, 5];
+console.log("Array inicial:", arrayNumeros);
 
 // push() - agregar al final
-arr.push(6);
-console.log("Después de push(6):", arr);
+arrayNumeros.push(6);
+console.log("Después de push(6):", arrayNumeros);
 
 // pop() - quitar del final
-let eliminadoFinal = arr.pop();
-console.log("Después de pop():", arr, "Elemento eliminado:", eliminadoFinal);
+let eliminadoFinal = arrayNumeros.pop();
+console.log("Después de pop():", arrayNumeros, "numero eliminado:", eliminadoFinal);
 
 // unshift() - agregar al inicio
-arr.unshift(0);
-console.log("Después de unshift(0):", arr);
+arrayNumeros.unshift(0);
+console.log("Después de agregar al inicio unshift(0):", arrayNumeros);
 
 // shift() - quitar del inicio
-let eliminadoInicio = arr.shift();
-console.log("Después de shift():", arr, "Elemento eliminado:", eliminadoInicio);
+let eliminadoInicio = arrayNumeros.shift();
+console.log("Después de shift():", arrayNumeros, "Elemento eliminado:", eliminadoInicio);
 
 // splice() - insertar en posición específica (agregar 99 en posición 2)
-arr.splice(2, 0, 99);
-console.log("Después de splice(2, 0, 99):", arr);
+arrayNumeros.splice(2, 0, 99);
+console.log("Después de splice(2, 0, 99):", arrayNumeros);
 
 // splice() - eliminar en posición específica (eliminar el elemento en posición 2)
-let eliminadoSplice = arr.splice(2, 1);
-console.log("Después de splice(2, 1):", arr, "Elemento eliminado:", eliminadoSplice);
+let eliminadoSplice = arrayNumeros.splice(2, 1);
+console.log("Después de splice(2, 1):", arrayNumeros, "Elemento eliminado:", eliminadoSplice);
 
 // slice() - extraer porción sin modificar el original (del índice 1 al 3)
-let porcion = arr.slice(1, 4);
+let porcion = arrayNumeros.slice(1, 4);
 console.log("Porción extraída con slice(1, 4):", porcion);
-console.log("Array final:", arr);
+console.log("Array final:", arrayNumeros);
