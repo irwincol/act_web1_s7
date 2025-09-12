@@ -489,9 +489,9 @@
       {
         "activityDescription": "Desestructuración de Objetos - Crea un objeto persona con propiedades anidadas (dirección, contacto). Demuestra desestructuración básica, renombrado de variables, valores por defecto, desestructuración anidada y rest operator en objetos.",
         "solutionFile": "src/ejercicio_09.js",
-        "score": 0,
+        "score": 4,
         "fileFound": true,
-        "feedback": "Error al procesar la evaluación"
+        "feedback": "La actividad cumple con la desestructuración de objetos, incluyendo anidada y rest operator. Sin embargo, hay un `console.log` con valores hardcodeados (`console.log('manu', 30);`) que no corresponde y la variable `trabajo` no existe en el objeto `persona`, lo cual demuestra el valor por defecto, pero podría ser más claro añadiéndola al objeto persona con valor `null` o similar."
       },
       {
         "activityDescription": "Métodos de Objeto - Crea un objeto y demuestra Object.keys() (obtener claves), Object.values() (obtener valores), Object.entries() (obtener pares clave-valor) e iterar sobre el objeto con forEach().",
@@ -501,15 +501,15 @@
         "feedback": "Excelente solución. Demuestra el uso correcto de `Object.keys()`, `Object.values()`, `Object.entries()` e iteración con `forEach()`. El código es limpio y fácil de entender."
       }
     ],
-    "overallScore": 3.9,
+    "overallScore": 4.3,
     "totalActivities": 10,
-    "completedActivities": 9,
-    "summary": "Buen trabajo general. Completó 9/10 actividades (90%) con una calificación promedio de 3.9/5. Hay oportunidades de mejora en algunos aspectos.",
+    "completedActivities": 10,
+    "summary": "Excelente trabajo. Completó 10/10 actividades (100%) con una calificación promedio de 4.3/5. Demuestra buen dominio de los conceptos.",
     "recommendations": [
-      "Revisar y mejorar las actividades con calificación baja"
+      "Continuar con el excelente trabajo y mantener la calidad del código"
     ],
-    "evaluatedAt": "2025-09-12T00:55:38.127Z",
-    "evaluatedBy": "Sistema de Evaluación"
+    "evaluatedAt": "2025-09-12T01:28:22.683Z",
+    "evaluatedBy": "Sistema"
   },
   "MarioMunera1993/act_web1_s7": {
     "repositoryUrl": "MarioMunera1993/act_web1_s7",
